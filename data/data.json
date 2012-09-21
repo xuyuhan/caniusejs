@@ -1,0 +1,2185 @@
+{
+    "platforms":{
+        "android":{
+            "name":"Android",
+            "abbr":"and.",
+            "type":"mobile"
+        },
+        "bada":{
+            "name":"Bada",
+            "abbr":"bd",
+            "type":"mobile"
+        },
+        "bb":{
+            "name":"BlackBerry",
+            "abbr":"bb",
+            "type":"mobile"
+        },
+        "ios":{
+            "name":"iOS",
+            "abbr":"ios",
+            "type":"mobile"
+        },
+        "webos":{
+            "name":"WebOS",
+            "abbr":"wos.",
+            "type":"mobile"
+        },
+        "wp":{
+            "name":"Windows Phone",
+            "abbr":"wp",
+            "type":"mobile"
+        },
+        "tizen":{
+            "name":"Tizen",
+            "abbr":"tiz.",
+            "type":"mobile"
+        },
+        "desktop":{
+            "name":"Desktop",
+            "abbr":"des.",
+            "type":"desktop"
+        }
+    },
+    "specs":{
+        "wac":{
+            "name":"WAC APIs",
+            "description":"WAC Specifications 2.1",
+            "url":"http://specs.wacapps.net/",
+            "version":"2.1"
+        },
+        "phonegap":{
+            "name":"Phonegap APIs",
+            "description":"Phonegap Specifications 2.0.0",
+            "url":"http://docs.phonegap.com/en/2.0.0/index.html",
+            "version":"2.0.0"
+        },
+        "html5":{
+            "name":"html5",
+            "description":"html5 new features",
+            "url":"http://www.whatwg.org/specs/web-apps/current-work/",
+            "version":"5.0"
+        }
+    },
+    "data":{
+        "wac":{
+            "first-level":{
+                "Widget": {
+                   "parent":"window",
+                   "stats": {
+                       "android":"n",
+                       "bada":"n",
+                       "bb":"n",
+                       "ios":"n",
+                       "webos":"n",
+                       "wp":"n",
+                       "tizen":"n",
+                       "desktop":"n"
+                   }
+                },
+                "deviceapis": {
+                    "parent":"window",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                }
+            },
+            "second-level":{
+                "accelerometer": {
+                    "parent":"deviceapis",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "pim": {
+                    "parent":"deviceapis",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "camera": {
+                    "parent":"deviceapis",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "deviceinteraction": {
+                    "parent":"deviceapis",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "devicestatus": {
+                    "parent":"deviceapis",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "filesystem": {
+                    "parent":"deviceapis",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "messaging": {
+                    "parent":"deviceapis",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "orientation": {
+                    "parent":"deviceapis",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "webview": {
+                    "parent":"deviceapis",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                }
+            },
+            "third-level": {
+                "getCurrentAcceleration": {
+                    "parent":"accelerometer",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "watchAcceleration": {
+                    "parent":"accelerometer",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "clearWatch": {
+                    "parent":"accelerometer",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "calendar": {
+                    "parent":"pim",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "getCameras": {
+                    "parent":"camera",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "contact": {
+                    "parent":"pim",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "startNotify": {
+                    "parent":"deviceinteraction",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "lightOn": {
+                    "parent":"deviceinteraction",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "setWallpaper": {
+                    "parent":"deviceinteraction",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "stopNotify": {
+                    "parent":"deviceinteraction",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "stopVibrate": {
+                    "parent":"deviceinteraction",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "lightOff": {
+                    "parent":"deviceinteraction",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "getComponents": {
+                    "parent":"devicestatus",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "isSupported": {
+                    "parent":"devicestatus",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "getPropertyValue": {
+                    "parent":"devicestatus",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "watchPropertyChange": {
+                    "parent":"devicestatus",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "clearPropertyChange": {
+                    "parent":"devicestatus",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "maxPathLength": {
+                    "parent":"filesystem",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "resolve": {
+                    "parent":"filesystem",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "messaging": {
+                    "parent":"messaging",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "sendMessage": {
+                    "parent":"messaging",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "findMessages": {
+                    "parent":"messaging",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "onSMS": {
+                    "parent":"messaging",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "onMMS": {
+                    "parent":"messaging",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "onEmail": {
+                    "parent":"messaging",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "unsubscribe": {
+                    "parent":"messaging",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "getCurrentOrientation": {
+                    "parent":"orientation",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "watchOrientation": {
+                    "parent":"orientation",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "clearWatch": {
+                    "parent":"orientation",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "task": {
+                    "parent":"pim",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "closed": {
+                    "parent":"webview",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "open": {
+                    "parent":"webview",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "addEventListener": {
+                    "parent":"webview",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                }
+            },
+            "direct-property":{},
+            "dynamic-object":{}
+        },
+        "phonegap":{
+            "first-level":{
+                "device": {
+                    "parent":"window",
+                    "stats":{
+                        "android":"q",
+                        "bada":"q",
+                        "bb":"y",
+                        "ios":"q",
+                        "webos":"y",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "android":"Gets the product name instead of the model name. ",
+                        "bada":"returns the manufacturer model name. For example \"Samsung Wave S8500\"",
+                        "ios":"Gets the device's custom name instead of the device model name. ",
+                        "wp":"returns the manufacturer specified device name, for example, the Samsung Focus returns \"SGH-i917\""
+                    }
+                },
+                "localStorage": {
+                    "parent":"window",
+                    "stats": {
+                        "android":"y",
+                        "bada":"n",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "wp":"dot notation is NOT available on Windows Phone. Be sure to use : window.localStorage.setItem/getItem, and not the w3 spec defined calls to window.localStorage.someKey = \"someValue\";"
+                    }
+                }
+            },
+            "second-level":{
+                "device": {
+                    "parent":"navigator",
+                    "stats":{
+                        "android":"q",
+                        "bada":"q",
+                        "bb":"y",
+                        "ios":"q",
+                        "webos":"y",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "android":"Gets the product name instead of the model name. ",
+                        "bada":"returns the manufacturer model name. For example \"Samsung Wave S8500\"",
+                        "ios":"Gets the device's custom name instead of the device model name. ",
+                        "wp":"returns the manufacturer specified device name, for example, the Samsung Focus returns \"SGH-i917\""
+                    }
+                },
+                "accelerometer": {
+                    "parent":"navigator",
+                    "stats": {
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"q",
+                        "webos":"n",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "ios":"ios doesn't have the concept of getting the current acceleration at any given point."
+                    }
+                },
+                "camera": {
+                    "parent":"navigator",
+                    "stats": {
+                        "android":"q",
+                        "bada":"q",
+                        "bb":"q",
+                        "ios":"q",
+                        "webos":"q",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "android":"Ignores the allowEdit parameter. Camera.PictureSourceType.PHOTOLIBRARY and Camera.PictureSourceType.SAVEDPHOTOALBUM both display the same photo album.",
+                        "bada":"options not supported. always returns a FILE URI",
+                        "bb":"Ignores the quality/sourceType/allowEdit/correctOrientation parameter. Camera.MediaType is not supported.",
+                        "webos":"Ignores the quality/sourceType/allowEdit/correctOrientation/saveToPhotoAlbum parameter. Camera.MediaType is not supported.",
+                        "ios":"Including a JavaScript alert() in either of the callback functions can cause problems. Wrap the alert in a setTimeout() to allow the iOS image picker or popover to fully close before the alert is displayed: setTimeout(\"alert(\"message\");\", 0);.",
+                        "wp":"Invoking the native camera application while your device is connected via Zune will not work, and the error callback will be triggered."
+                    }
+                },
+                "compass": {
+                    "parent":"navigator",
+                    "stats": {
+                        "android":"q",
+                        "bada":"q",
+                        "bb":"n",
+                        "ios":"q",
+                        "webos":"y",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "android":"trueHeading is not supported. It will report the same value as magneticHeading, headingAccuracy will always be 0 as there is no difference between the magneticHeading and trueHeading on Android.",
+                        "wp":"filter is not supported.",
+                        "bada":"filter is not supported.",
+                        "ios":"In iOS only one watchHeading can be in effect at one time. If a watchHeading via filter is in effect, calling getCurrentHeading or watchHeading will use the existing filter value for specifying heading changes. On iOS watching heading changes via a filter is more efficient than via time."
+                    }
+                },
+                "network": {
+                    "parent":"navigator",
+                    "stats": {
+                        "android":"y",
+                        "bada":"q",
+                        "bb":"y",
+                        "ios":"q",
+                        "webos":"q",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "wp":"Windows Phone Emulator always detects navigator.network.connection.type as Connection.UNKNOWN.",
+                        "webos":"Only shows that a connection is available, but not which type.",
+                        "bada":"Bada can only detect a WiFi or cellular connection.navigator.network.connection.type is set to Connection.CELL_2G for all cellular data.",
+                        "ios":"iOS cannot detect the type of cellular network connection. navigator.network.connection.type is set to Connection.CELL_2G for all cellular data."
+                    }
+                },
+                "contacts": {
+                    "parent":"navigator",
+                    "stats": {
+                        "android":"q",
+                        "bada":"q",
+                        "bb":"q",
+                        "ios":"q",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "android":"categories: This property is not support by Android 2.X devices, and will always be returned as null.",
+                        "bb":"property nickname not supported, and will always be returned as null.",
+                        "bada":"These property is not supported: displayName/birthday/photos/categories/ims",
+                        "ios":"displayName: This property is not supported by iOS and will be returned as null unless there is no ContactName specified."
+                    }
+                },
+                "name": {
+                    "parent":"device",
+                    "stats":{
+                        "android":"q",
+                        "bada":"q",
+                        "bb":"y",
+                        "ios":"q",
+                        "webos":"y",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "android":"Gets the product name instead of the model name. ",
+                        "bada":"returns the manufacturer model name. For example \"Samsung Wave S8500\"",
+                        "ios":"Gets the device's custom name instead of the device model name. ",
+                        "wp":"returns the manufacturer specified device name, for example, the Samsung Focus returns \"SGH-i917\""
+                    }
+                },
+                "cordova": {
+                    "parent":"device",
+                    "stats":{
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"n",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "platform": {
+                    "parent":"device",
+                    "stats":{
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"q",
+                        "ios":"q",
+                        "webos":"y",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "bb":"Devices may return the device platform version instead of the platform name. For example, the Storm2 9550 would return \"2.13.0.95\" or similar.",
+                        "ios":"The iPhone returns iPhone as the platform. The iPad returns iPad as the platform. In the simulator they will return iPhone Simulator and iPad Simulator respectively. These are inaccurate in all cases because Apple has rebranded the iPhone operating system as iOS.",
+                        "wp":"Windows Phone 7 devices report platform as \"WinCE\""
+                    }
+                },
+                "uuid": {
+                    "parent":"device",
+                    "stats":{
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"q",
+                        "ios":"q",
+                        "webos":"y",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "ios":"The uuid for iOS is not unique for a device, but is unique per application per install. This will change if you delete the app and re-install, and possibly also when you upgrade your iOS version, or even upgrade your app per version (as we've seen in iOS 5.1). Not a reliable value.",
+                        "wp":"The uuid for Windows Phone 7 requires the permission IDCAPIDENTITY_DEVICE. Microsoft will likely be deprecating this property in the near future. If the capablility is not available, the application generates a persistent guid, that will be maintained for the install-lifetime of the application on the device."
+                    }
+                },
+                "version": {
+                    "parent":"device",
+                    "stats":{
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "geolocation": {
+                    "parent":"navigator",
+                    "stats": {
+                        "android":"q",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "android":"altitudeAccuracy: This property is not support by Android devices, it will always return null."
+                    }
+                },
+                "notification": {
+                    "parent":"navigator",
+                    "stats": {
+                        "android":"y",
+                        "bada":"q",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "wp":"Ignores button names, always uses \"OK\". There is no built in browser alert, so if you want to just write alert(\"foo\"); you can assign window.alert = navigator.notification.alert;",
+                        "bada":"alert uses javascript alert"
+                    }
+                },
+                "key": {
+                    "parent":"localStorage",
+                    "stats": {
+                        "android":"y",
+                        "bada":"n",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "wp":"dot notation is NOT available on Windows Phone. Be sure to use : window.localStorage.setItem/getItem, and not the w3 spec defined calls to window.localStorage.someKey = \"someValue\";"
+                    }
+                },
+                "setItem": {
+                    "parent":"localStorage",
+                    "stats": {
+                        "android":"y",
+                        "bada":"n",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "getItem": {
+                    "parent":"localStorage",
+                    "stats": {
+                        "android":"y",
+                        "bada":"n",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "removeItem": {
+                    "parent":"localStorage",
+                    "stats": {
+                        "android":"y",
+                        "bada":"n",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "clear": {
+                    "parent":"localStorage",
+                    "stats": {
+                        "android":"y",
+                        "bada":"n",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                }
+            },
+            "third-level": {
+                "capture": {
+                    "parent":"device",
+                    "stats": {
+                        "android":"y",
+                        "bada":"q",
+                        "bb":"q",
+                        "ios":"q",
+                        "webos":"n",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "bb":"Cordova for BlackBerry WebWorks attempts to launch the Voice Notes Recorder application, provided by RIM, to capture the audio recordings. The developer will receive a CaptureError.CAPTURE_NOT_SUPPORTED error code if the application is not installed on the device.",
+                        "ios":"iOS does not have a default audio recording application so a simple user interface is provided.",
+                        "bada":"Bada not supported captureAudio, and it supports captureVideo/captureImage just like the other platforms. However there is another mode where you can capture a video or an image straight in the webview without launching any camera apps.",
+                        "wp":"Windows Phone 7 does not have a default audio recording application so a simple user interface is provided. & Invoking the native camera application while your device is connected via Zune will not work, and the error callback will be triggered."
+                    }
+                },
+                "getCurrentAcceleration": {
+                    "parent":"accelerometer",
+                    "stats": {
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"q",
+                        "webos":"n",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "ios":"iPhone doesn't have the concept of getting the current acceleration at any given point. You must watch the acceleration and capture the data at given time intervals. Thus, the getCurrentAcceleration function will give you the last value reported from a Cordova watchAccelerometer call."
+                    }
+                },
+                "watchAcceleration": {
+                    "parent":"accelerometer",
+                    "stats": {
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"q",
+                        "webos":"n",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "ios":"At the interval requested, Cordova will call the success callback function and pass the accelerometer results. However, in requests to the device Cordova restricts the interval to minimum of every 40ms and a maximum of every 1000ms."
+                    }
+                },
+                "clearWatch": {
+                    "parent":"accelerometer",
+                    "stats": {
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"n",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "getPicture": {
+                    "parent":"camera",
+                    "stats": {
+                        "android":"q",
+                        "bada":"q",
+                        "bb":"q",
+                        "ios":"q",
+                        "webos":"q",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "android":"Ignores the allowEdit parameter. Camera.PictureSourceType.PHOTOLIBRARY and Camera.PictureSourceType.SAVEDPHOTOALBUM both display the same photo album.",
+                        "bada":"options not supported. always returns a FILE URI",
+                        "bb":"Ignores the quality/sourceType/allowEdit/correctOrientation parameter. Camera.MediaType is not supported.",
+                        "webos":"Ignores the quality/sourceType/allowEdit/correctOrientation/saveToPhotoAlbum parameter. Camera.MediaType is not supported.",
+                        "ios":"Including a JavaScript alert() in either of the callback functions can cause problems. Wrap the alert in a setTimeout() to allow the iOS image picker or popover to fully close before the alert is displayed: setTimeout(\"alert(\"message\");\", 0);.",
+                        "wp":"Invoking the native camera application while your device is connected via Zune will not work, and the error callback will be triggered."
+                    }
+                },
+                "cleanup": {
+                    "parent":"camera",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"y",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "getCurrentHeading": {
+                    "parent":"compass",
+                    "stats": {
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"n",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "watchHeading": {
+                    "parent":"compass",
+                    "stats": {
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"n",
+                        "ios":"q",
+                        "webos":"y",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "ios":"In iOS only one watchHeading can be in effect at one time. If a watchHeading via filter is in effect, calling getCurrentHeading or watchHeading will use the existing filter value for specifying heading changes. On iOS watching heading changes via a filter is more efficient than via time."
+                    }
+                },
+                "clearWatch": {
+                    "parent":"compass",
+                    "stats": {
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"n",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "connection": {
+                    "parent":"network",
+                    "stats": {
+                        "android":"y",
+                        "bada":"q",
+                        "bb":"y",
+                        "ios":"q",
+                        "webos":"q",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "wp":"Windows Phone Emulator always detects navigator.network.connection.type as Connection.UNKNOWN.",
+                        "webos":"Only shows that a connection is available, but not which type.",
+                        "bada":"Bada can only detect a WiFi or cellular connection.navigator.network.connection.type is set to Connection.CELL_2G for all cellular data.",
+                        "ios":"iOS cannot detect the type of cellular network connection. navigator.network.connection.type is set to Connection.CELL_2G for all cellular data."
+                    }
+                },
+                "create": {
+                    "parent":"contacts",
+                    "stats": {
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "find": {
+                    "parent":"contacts",
+                    "stats": {
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "getCurrentPosition": {
+                    "parent":"geolocation",
+                    "stats": {
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "watchPosition": {
+                    "parent":"geolocation",
+                    "stats": {
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "clearWatch": {
+                    "parent":"geolocation",
+                    "stats": {
+                        "android":"q",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "alert": {
+                    "parent":"notification",
+                    "stats": {
+                        "android":"y",
+                        "bada":"q",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "wp":"Ignores button names, always uses \"OK\". There is no built in browser alert, so if you want to just write alert(\"foo\"); you can assign window.alert = navigator.notification.alert;",
+                        "bada":"alert uses javascript alert"
+                    }
+                },
+                "confirm": {
+                    "parent":"notification",
+                    "stats": {
+                        "android":"y",
+                        "bada":"q",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"n",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "wp":"Ignores button names, always \"OK|Cancel\". Calls to alert and confirm are non-blocking and result is only available asyncronously.",
+                        "bada":"bada2.x confirm uses the browser\"s built-in alert function. bada1.2 Ignore button names, always \"OK|Cancel\"."
+                    }
+                },
+                "beep": {
+                    "parent":"notification",
+                    "stats": {
+                        "android":"q",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"q",
+                        "webos":"n",
+                        "wp":"q",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "android":"Android plays the default \"Notification ringtone\" specified under the \"Settings/Sound & Display\" panel.",
+                        "ios":"Ignores the beep count argument. There is no native beep API for iPhone. Cordova implements beep by playing an audio file via the media API. The user must provide a file with the desired beep tone. This file must be less than 30 seconds long, located in the www/ root, and must be named beep.wav.",
+                        "wp":"WP7 Cordova lib includes a generic beep file that is used."
+                    }
+                },
+                "vibrate": {
+                    "parent":"notification",
+                    "stats": {
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"q",
+                        "webos":"n",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "ios":"time: Ignores the time and vibrates for a pre-set amount of time."
+                    }
+                }
+            },
+            "direct-property":{
+                "openDatabase": {
+                    "parent":"window",
+                    "stats": {
+                        "android":"q",
+                        "bada":"n",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"n",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "android":"changeVersion: This method is not support by Android 1.X devices."
+                    }
+                }
+            },
+            "dynamic-object":{
+                "ContactField": {
+                    "stats": {
+                        "android":"q",
+                        "bada":"q",
+                        "bb":"q",
+                        "ios":"q",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "android":"categories: This property is not support by Android 2.X devices, and will always be returned as null.",
+                        "bb":"property nickname not supported, and will always be returned as null.",
+                        "bada":"These property is not supported: displayName/birthday/photos/categories/ims",
+                        "ios":"displayName: This property is not supported by iOS and will be returned as null unless there is no ContactName specified."
+                    }
+                },
+                "ContactFindOptions": {
+                    "stats": {
+                        "android":"q",
+                        "bada":"q",
+                        "bb":"q",
+                        "ios":"q",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "android":"formatted: Partially supported. Will return the concatenation of honorificPrefix, givenName, middleName, familyName and honorificSuffix but will not store.",
+                        "bb":"formatted: Partially supported. Will return concatenation of BlackBerry firstName and lastName fields. middleName/honorificPrefix/honorificSuffix, thses properties is not supported",
+                        "bada":"These property is not supported: formatted/middleName/honorificSuffix",
+                        "ios":"formatted: Partially supported. Will return iOS Composite Name but will not store."
+                    }
+                },
+                "File": {
+                    "stats": {
+                        "android":"y",
+                        "bada":"n",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"n",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "FileReader": {
+                    "stats": {
+                        "android":"y",
+                        "bada":"n",
+                        "bb":"y",
+                        "ios":"q",
+                        "webos":"n",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "ios":"encoding parameter is not supported, UTF8 encoding is always used."
+                    }
+                },
+                "FileWriter": {
+                    "stats": {
+                        "android":"y",
+                        "bada":"n",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"n",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "Media": {
+                    "stats": {
+                        "android":"y",
+                        "bada":"n",
+                        "bb":"q",
+                        "ios":"q",
+                        "webos":"n",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    },
+                    "quirks":{
+                        "bb":"BlackBerry devices support a limited number of simultaneous audio channels. CDMA devices only support a single audio channel. Other devices support up to two simultaneous channels. Attempting to play more audio files then the supported amount will result in previous playback being stopped.",
+                        "ios":"numberOfLoops: Pass in this option to the play method to specify the number of times you want the media file to play."
+                    }
+                }
+            }
+        },
+        "html5":{
+            "first-level":{
+                "URL": {
+                    "parent":"window",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "IDBKeyRange": {
+                    "parent":"window",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "indexedDB": {
+                    "parent":"window",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "indexedDBSync": {
+                    "parent":"window",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "sessionStorage": {
+                    "parent":"window",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "localStorage": {
+                    "parent":"window",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "applicationCache": {
+                    "parent":"window",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "external": {
+                    "parent":"window",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                }
+            },
+            "second-level":{
+                "fullscreenEnabled": {
+                    "parent":"document",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "fullscreenElement": {
+                    "parent":"document",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "exitFullscreen": {
+                    "parent":"document",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "getUserMedia": {
+                    "parent":"navigator",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "createObjectURL": {
+                    "parent":"URL",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "only": {
+                    "parent":"IDBKeyRange",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "lowerBound": {
+                    "parent":"IDBKeyRange",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "upperBound": {
+                    "parent":"IDBKeyRange",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "bound": {
+                    "parent":"IDBKeyRange",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "open": {
+                    "parent":"indexedDB",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "deleteDatabase": {
+                    "parent":"indexedDB",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "cmp": {
+                    "parent":"indexedDB",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "open": {
+                    "parent":"indexedDBSync",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "deleteDatabase": {
+                    "parent":"indexedDBSync",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "cmp": {
+                    "parent":"indexedDBSync",
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "geolocation": {
+                    "parent":"navigator",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "status": {
+                    "parent":"applicationCache",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "update": {
+                    "parent":"applicationCache",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "abort": {
+                    "parent":"applicationCache",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "swapCache": {
+                    "parent":"applicationCache",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "registerProtocolHandler": {
+                    "parent":"navigator",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "registerContentHandler": {
+                    "parent":"navigator",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "isProtocolHandlerRegistered": {
+                    "parent":"navigator",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "isContentHandlerRegistered": {
+                    "parent":"navigator",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "unregisterProtocolHandler": {
+                    "parent":"navigator",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "unregisterContentHandler": {
+                    "parent":"navigator",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "yieldForStorageUpdates": {
+                    "parent":"navigator",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "AddSearchProvider": {
+                    "parent":"external",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "IsSearchProviderInstalled": {
+                    "parent":"external",
+                    "stats": {
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                }
+            },
+            "third-level":{
+                "getCurrentPosition": {
+                    "parent":"geolocation",
+                    "stats": {
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "watchPosition": {
+                    "parent":"geolocation",
+                    "stats": {
+                        "android":"y",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "clearWatch": {
+                    "parent":"geolocation",
+                    "stats": {
+                        "android":"q",
+                        "bada":"y",
+                        "bb":"y",
+                        "ios":"y",
+                        "webos":"y",
+                        "wp":"y",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                }
+            },
+            "direct-property":{
+                "requestAnimationFrame": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "cancelAnimationFrame": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "openDatabase": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "btoa": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "atob": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                }
+            },
+            "dynamic-object":{
+                "AudioContext": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "Notification": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "Worker": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "SharedWorker": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "FileReader": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "WebSocket": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "EventSource": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "MessageChannel": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "ArrayBuffer": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "Int8Array": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "Uint8Array": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "Int16Array": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "Uint16Array": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "Int32Array": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "Uint32Array": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "Float32Array": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                },
+                "Float64Array": {
+                    "stats":{
+                        "android":"n",
+                        "bada":"n",
+                        "bb":"n",
+                        "ios":"n",
+                        "webos":"n",
+                        "wp":"n",
+                        "tizen":"n",
+                        "desktop":"n"
+                    }
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "caniusejs",
+  "version": "0.0.1",
+  "description": "Check current enabled APIs on platforms. Such as WAC, Phonegap.",
+  "keywords": [
+    "APIs",
+    "WAC",
+    "Phonegap",
+    "html5"
+  ],
+  "author": {
+    "name": "Yuhan Xu",
+    "email": "xuyuhan2011@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xuyuhan/caniusejs.git"
+  },
+  "main": "./lib/caniusejs.js",
+  "engines": {
+    "node": ">= 0.4.0"
+  }
+}
